@@ -2,13 +2,65 @@ body{
     background: darkgrey;
 }
 .artem {
-    margin: 0 auto;
-    height: 572px;
-    width: 288px;
+    height: 250px;
+    width: 126px;
+    background-image: url(tema.png);
+    background-size: cover;
+    position: absolute;
+    top: calc(50% - 250px);
+    left: calc(50% - 63px);
+    -webkit-transform-origin: 63px 250px;
+    transform-origin: 63px 250px;
+    -webkit-animation: artem  20s steps(3600, end) infinite;
+      -o-animation: artem  20s steps(3600, end) infinite;
+      animation: artem  20s steps(3600, end) infinite;      
 }
-h1 {
-    color: #ffffff;
-    text-align: center;
-    font-family: sans-serif;
-    letter-spacing: 2px;
+.skb {
+	width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #131315;
+  position: absolute;
+  top:calc( 50% - 35px);
+  left: calc( 50% - 35px);
+  text-align: center;
+  line-height: 70px;
+  font-family: sans-serif;
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+@-webkit-keyframes artem {
+  from {-webkit-transform: rotate(0deg);}
+  to {-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes artem {
+  from {-moz-transform: rotate(0deg);}
+  to {-moz-transform: rotate(360deg);}
+}
+@-keyframes artem {
+	from{transform: rotate(0deg);}
+	to{transform: rotate(360deg);}
+}
+@media screen and (max-width: 420px) {
+	.artem{
+		height: 200px;
+    	width: 100px;
+    	top: calc(50% - 200px);
+    	left: calc(50% - 50px);
+    	-webkit-transform-origin: 50px 200px;
+    	transform-origin: 50px 200px;	
+	}
+}
+@media screen and (max-width: 320px) {
+	.artem{
+		height: 150px;
+    	width: 74px;
+    	top: calc(50% - 150px);
+    	left: calc(50% - 37px);
+    	-webkit-transform-origin: 37px 200px;
+    	transform-origin: 37px 200px;	
+	}
 }
