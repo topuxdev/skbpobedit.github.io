@@ -1,0 +1,54 @@
+body {
+    font-size: 62.5%;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo {
+    display: block;
+    display: flex;
+    height: 6rem;
+    width: 10rem;
+}
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background: #184143;
+}
+.nav-button {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 10px auto;
+    cursor: pointer;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+}
+.search .input-search {
+    font-size: 1.1rem;
+    padding: 0.8rem 3rem;
+    border-style: none;
+    border: 1px solid grey;
+    width: 50rem;
+}
+.search .input-submit {
+    border-style: none;
+    background: #184143;
+    color: #ffffff;
+    font-size: 1.1rem;
+    padding: 0.8rem 3rem;
+    cursor: pointer;
+}
+.skype{
+    height: 30rem;
+    background-image: url(/reklama.bb3829ac.jpg);
+    background-size: cover;
+}
+
+/*# sourceMappingURL=/styles.6145e9cd.css.map */
