@@ -1,52 +1,112 @@
 body {
-    font-size: 62.5%;
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .logo {
-    display: block;
-    display: flex;
-    height: 6rem;
-    width: 10rem;
+  /* display: block; */
+  /* display: flex; */
+}
+.logo img {
+  height: 6rem;
+  
 }
 .main-nav ul {
-    list-style: none;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  background: #184143;
+}
+.nav-button {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 10px auto;
+  cursor: pointer;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+}
+.search .input-search {
+  font-size: 1.1rem;
+  padding: 0.8rem 3rem;
+  border-style: none;
+  border: 1px solid grey;
+  width: 50rem;
+}
+.search .input-submit {
+  border-style: none;
+  background: #184143;
+  color: #ffffff;
+  font-size: 1.1rem;
+  padding: 0.8rem 3rem;
+  cursor: pointer;
+}
+.skype {
+  height: 30rem;
+  background-image: url(../img/reklama.jpg);
+  background-size: cover;
+}
+.news {
+  color: #ffffff;
+  background: #184143;
+  font-size: 1.5rem;
+  padding: 1rem;
+  cursor: pointer;
+  text-align: center;
+}
+.catalog h3 {
+  color: #ffffff;
+  background: red;
+  font-size: 1.5rem;
+  padding: 1rem;
+  cursor: pointer;
+  text-align: center;
+  margin: 0 0 2rem 0;
+}
+.catalog-wrap {
+  display: grid;
+  grid-template-columns: 20rem 20rem 20rem 20rem;
+  grid-template-rows: 20rem 20rem;
+  grid-gap: 3rem;
+  justify-content: center;
+}
+.catalog-item {
+  border: 1px solid #000000;
+  background: grey;
+  cursor: pointer;
+}
+.clients {
+  color: #ffffff;
+  background: red;
+  font-size: 1.5rem;
+  padding: 1rem;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 2rem;
+}
+.clients h3 {
+    margin: 0;
+}
+footer{
     display: flex;
     justify-content: space-around;
     background: #184143;
+    padding: 3rem;
 }
-.nav-button {
-    display: block;
+.contacts {
+    font-size: 3rem;
     color: #ffffff;
-    text-decoration: none;
-    font-size: 1.5rem;
-    margin: 10px auto;
-    cursor: pointer;
 }
-.search{
-    display: flex;
-    justify-content: center;
-    margin: 1rem auto;
-}
-.search .input-search {
-    font-size: 1.1rem;
-    padding: 0.8rem 3rem;
-    border-style: none;
-    border: 1px solid grey;
-    width: 50rem;
-}
-.search .input-submit {
-    border-style: none;
-    background: #184143;
-    color: #ffffff;
-    font-size: 1.1rem;
-    padding: 0.8rem 3rem;
-    cursor: pointer;
-}
-.skype{
-    height: 30rem;
-    background-image: url(../img/reklama.jpg);
+.politics{
+    height: 20rem;
+    width: 36rem;
+    background-image: url(../img/naval.jpg);
     background-size: cover;
 }
+
