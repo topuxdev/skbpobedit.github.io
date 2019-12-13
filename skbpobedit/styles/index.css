@@ -75,6 +75,7 @@ body {
   grid-template-rows: 20rem 20rem;
   grid-gap: 3rem;
   justify-content: center;
+  margin-bottom: 10rem;
 }
 .catalog-item {
   border: 1px solid #000000;
@@ -90,23 +91,52 @@ body {
   text-align: center;
   margin-top: 2rem;
 }
-.clients h3 {
-    margin: 0;
+.advantages{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10rem;
+}
+.advantages-item{
+  padding-right: 50px;
+  text-align: center;
+}
+.advantages-item:last-child{
+  padding-right: 0;
+}
+.advantages-icon{
+  width: 100px;
+  height: 100px;
+  fill: #184143;
+  margin: 0 auto;
+}
+.advantages-title {
+  font-size: 1.3rem;
+}
+.advantages-description{
+  font-size: 0.9rem;
+  letter-spacing: 1px;
 }
 footer{
     display: flex;
     justify-content: space-around;
     background: #184143;
     padding: 3rem;
-}
-.contacts {
-    font-size: 3rem;
     color: #ffffff;
 }
-.politics{
-    height: 20rem;
-    width: 36rem;
-    background-image: url(../img/naval.jpg);
-    background-size: cover;
+.contacts {
+    font-size: 1rem;
+}
+.copirate{
+  align-self: flex-end;
+}
+.social{
+  display: flex;
+}
+.social-icon{
+  width: 40px;
+  height: 40px;
+  fill: #184143;
+  background: #ffffff;
+  margin: 0 5px;
 }
 
