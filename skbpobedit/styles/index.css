@@ -7,7 +7,7 @@ body {
 }
 .top-head {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding-top: 1rem;
   
 }
@@ -41,7 +41,7 @@ body {
   margin-bottom: 0;
 }
 .logo {
-  /* margin-top: 1.5rem; */
+  margin-left: 5rem;
 }
 .logo img {
   height: 7rem;
@@ -183,6 +183,11 @@ footer{
 .social{
   display: flex;
 }
+.politics {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .social-icon{
   width: 40px;
   height: 40px;
@@ -190,5 +195,10 @@ footer{
   background: #ffffff;
   margin: 0 5px;
   border-radius: 10px;
+}
+.author a {
+  text-decoration: none;
+  color: #feca39;
+  font-size: 1rem;
 }
 
