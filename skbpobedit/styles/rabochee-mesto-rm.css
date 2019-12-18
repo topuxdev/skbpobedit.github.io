@@ -131,7 +131,7 @@ body {
   .catalog-wrap {
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
-    grid-template-rows: 23vw 23vw;
+    grid-template-rows: 20vw;
     grid-gap: 3rem;
     justify-content: center;
     margin-bottom: 10rem;
