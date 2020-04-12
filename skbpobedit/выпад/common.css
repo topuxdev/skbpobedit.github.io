@@ -44,9 +44,9 @@ body {
 /*--slider popular--*/
 .slideshow-container {
   width: 100%;
-  position: absolute;
+  /*position: absolute;
   top: 0;
-  z-index: -1;
+  z-index: -1;*/
 }
 
 .mySlides {
@@ -54,6 +54,8 @@ body {
   background-size: cover;
   background-position: center;
   height: 35rem;
+  background-attachment: fixed;
+  /*background-attachment: scroll;*/
 }
 .fade {
   -webkit-animation-name: fade;
@@ -105,7 +107,7 @@ body {
 }
 /*##########################*/
 .catalog {
-  margin-top: 29.3rem;
+  /*margin-top: 29.3rem;*/
 }
 
 
