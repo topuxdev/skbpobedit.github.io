@@ -22,8 +22,11 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.logo {
+  padding: 7px;
+}
 .logo img {
-  height: 3rem;   
+  height: 3.5rem;   
 }
 .search {
   background: #000000;
