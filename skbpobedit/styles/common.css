@@ -201,7 +201,7 @@ nav li:hover > .submenu {
 
 footer{
   background: #313234;
-  padding: 3rem;
+  padding: 1.5rem 0;
   color: #ffffff;
   text-align: center;
 }
@@ -234,14 +234,18 @@ footer{
 .contacts > .logo > img {
   height: 4.6rem;
 }
-/*.contacts h1 {
-  letter-spacing: 2px;
-  border: 3px solid #ffffff;
-  max-width: 300px;
-  font-weight: lighter;
-  border-radius: 30px;
-  margin: 2rem auto 3rem auto;
-}*/
+.footer__bottom {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__data {
+  font-size: 1rem;
+  align-self: flex-end;
+}
 .social{
   display: flex;
   justify-content: center;
@@ -262,10 +266,12 @@ footer{
   font-size: 32px;
   font-weight: bold;
 }
-.author a {
+.author {
+  display: block;
   text-decoration: none;
   color: #feca39;
   font-size: 1rem;
+  align-self: flex-end;
 }
 /*------index.css----------*/
 .about__title {
@@ -284,6 +290,8 @@ footer{
 .info {
   width: 20%;
   margin: 2%;
+  display: block;
+  text-decoration: none;
 }
 .info__img {
   height: 40%;
@@ -301,9 +309,9 @@ footer{
   display: -moz-box;
   -moz-box-orient: vertical;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 6;
   -webkit-box-orient: vertical;
-  line-clamp: 2;
+  line-clamp: 6;
   box-orient: vertical;
   margin: 10px 0 15px 0;
 }
