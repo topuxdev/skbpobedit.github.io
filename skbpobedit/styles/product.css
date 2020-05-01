@@ -88,8 +88,8 @@ header {
 .tabs__link {
 	flex: 0 1 33.333%;
 	height: 80px;
-	/*background: #1780c2;*/
-	background: darkslategray;
+	/*background: darkslategray;*/
+	background-color: #1780c2;
 	font-size: 1rem;
 	color: #ffffff;
 	transition: 0.3s;
@@ -104,20 +104,24 @@ header {
 	color: #000000;
 }
 .tabs__block {
-	/*background: #ddd;*/
 	background: #ffffff;
 	position: relative;
 	border-radius: 0 0 10px 10px;
 	display: none;
 	padding: 3rem 3rem;
 	min-height: 20rem;
-/*	font-size: 1.2rem;
-	line-height: 1.6rem;*/
 	color: #383838;
-    font-size: 15px;
-    line-height: 22px;
-    font-style: normal;
-    font-weight: 500;
+	font-size: 15px;
+	line-height: 22px;
+	font-style: normal;
+	font-weight: 500;
+}
+.tabs__block h6 {
+	olor: #383838;
+	font-size: 15px;
+	line-height: 22px;
+	font-style: normal;
+	font-weight: 700;
 }
 .tabs__block table {
 	border-collapse: collapse;
